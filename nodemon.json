@@ -1,0 +1,7 @@
+{
+    "env": {
+        "PUSHER_APP_ID": "993344",
+        "PUSHER_APP_KEY": "75b4c72486252e9f6648",
+        "PUSHER_APP_SECRET": "edec131003188dfb7965"
+    }
+}
