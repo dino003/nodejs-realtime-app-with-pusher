@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Voting App</title>
+        <meta name="description" content="">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <h1>My App</h1>
+            <p>Vote for your favourite os</p>
+            <form  id="vote-form">
+                <p>
+                    <label for="windows">
+                        <input type="radio" name="os" id="windows" value="Windows" />
+
+                        <span>Windows</span>
+                    </label>
+                </p> 
+                <p>
+                    <label for="mac">
+                        <input type="radio" name="os" id="mac" value="Mac" />
+
+                        <span>Mac</span>
+                    </label>
+                </p> <p>
+                    <label for="linux">
+                        <input type="radio" name="os" id="linux" value="Linux" />
+
+                        <span>Linux distribution</span>
+                    </label>
+                </p> <p>
+                    <label for="autres">
+                        <input type="radio" name="os" id="autres" value="Autres" />
+
+                        <span>Autres</span>
+                    </label>
+                </p> 
+                <input type="submit" value="Vote" class="btn" />
+            </form>
+            <br /> <br />
+            <div id="chartContainer" style="height: 300px; width: 100%;">
+
+            </div>
+        </div>
+        
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.js"
+        integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+        crossorigin="anonymous"></script>
+      
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/5.0.2/pusher.min.js" integrity="sha256-vOxviKM/QBcMYxoY51Rbfk1ePvAeH/PNSRLv1egfhts=" crossorigin="anonymous"></script>
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha256-CIc5A981wu9+q+hmFYYySmOvsA3IsoX+apaYlL0j6fg=" crossorigin="anonymous"></script>
+          <script src="main.js"></script>
+        </body>
+</html>
